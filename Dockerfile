@@ -23,4 +23,4 @@ FROM mesosphere/aws-cli
 COPY --from=builder /app/build .
 
 #Set the default command of this container to push the files from the working directory of this container to our s3 bucket 
-CMD ["s3", "sync", "./", "s3://skrrskrr"] 
+CMD ["s3", "sync", "./", "s3://endlessskrrskrr.com"] 
